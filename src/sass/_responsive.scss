@@ -1,0 +1,960 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px){
+    /*
+    .navbar-overlay{
+        .nav-wrapper{
+            width: 70% !important;
+
+            .navbar-top{
+                overflow: visible !important;
+                height: 75vh !important;
+            }
+        }
+    }
+    */
+    .hero-section{
+        .hero-container{
+            .hero-row{
+                .hero-left-content{
+                    .hero-slogan-border{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                        width: 200px;
+                        height: 350px;
+                        margin-top: 0;
+                        margin-left: -5rem !important;
+                    }
+                }
+
+                .hero-right-content{
+                    text-align: right;
+                    img{
+                        width: 65%;
+                        margin-top: -5rem;
+                        margin-right: -.8rem;
+                    }
+
+                    .gImgg{
+                        margin-right: 2rem;
+                    }
+                } 
+            }
+        }
+    }
+
+    .about-section{
+        margin-top: -5rem !important;
+        .about-container{
+            .about-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(-90deg);
+                    top: 17rem !important;
+                    left: -4rem !important;
+                }
+            }
+        }
+    }
+
+    .whatWeDo-section{
+        .whatWeDo-container{
+            .whatWeDo-row{
+                margin-top: 0;
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 12rem !important;
+                    right: -4rem;
+                }
+            }
+        }
+    }
+
+    .ourClients-section{
+        .ourClients-container{
+            .ourClients-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(-90deg);
+                    top: 9rem;
+                    left: -5rem !important;
+                }
+
+                .clients-brands{
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+
+    .subscribe-section{
+        margin-top: -2rem;
+        margin-bottom: -4rem;
+        .subscribe-container{
+            .subscribe-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 3rem !important;
+                    right: -4rem !important;
+                }
+            }
+        }
+    }
+
+    .contactForm-section{
+        .contactForm-container{
+            .contactForm-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 6.5rem !important;
+                    right: -6rem !important;
+                }
+            }
+        }
+    }
+
+    .aboutMvv-section{
+        .aboutMvv-container{
+            .aboutMvv-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(-90deg);
+                    top: 20rem !important;
+                    left: -6.5rem !important;
+                }
+            }
+        }
+    }
+
+    .aboutTeam-section{
+        .aboutTeam-container{
+            .aboutTeam-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 10rem !important;
+                    right: -3rem !important;
+                    z-index: 999;
+                }
+            }
+        }
+    }
+
+    .aboutContact-section{
+        margin-top: -8rem !important;
+        margin-bottom: 2rem !important;
+        .aboutContact-container{
+            .aboutContact-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(-90deg);
+                    top: 0rem !important;
+                    left: -5rem !important;
+                }
+            }
+        }
+    }
+
+    .servicesDetails-section{
+        .servicesDetails-container{
+            .servicesDetails-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(-90deg);
+                    top: 20rem !important;
+                    left: -6rem !important;
+                }
+            }
+        }
+    }
+
+    .servicesWorkDemo-section{
+        .servicesWorkDemo-container{
+            .servicesWorkDemo-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 13rem !important;
+                    right: -6rem !important;
+                    z-index: 999;
+                }
+            }
+        }
+    }
+
+    .galleryCards-section{
+        .galleryCards-container{
+            .galleryCards-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 13rem !important;
+                    right: -6rem !important;
+                    z-index: 999;
+                }
+
+                .cardImg{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 991.98px){   
+    .cursor{
+        display: none;
+    }
+    /*
+    .navbar-overlay{
+        .nav-wrapper{
+            width: 50% !important;
+
+            .navbar-top{
+                overflow: visible !important;
+                height: 75vh !important;
+            }
+        }
+    }
+    */
+    .hero-section{
+        .hero-container{
+            .hero-row{
+
+                &::after{
+                    font-size: 30px;
+                    top: -2rem;
+                    right: -4rem;
+                }
+                .hero-left-content{
+                    text-align: left;
+                    margin-top: -5rem;
+
+                    h4{
+                        font-size: 15px;
+                    }
+                    h1{
+                        font-size: 30px;
+                    }
+                    a{
+                        display: none;
+                    }
+                    .hero-slogan-border{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                        width: 200px;
+                        height: 350px;
+                        margin-top: 0;
+                        margin-left: -6.5rem;
+                    }
+                }
+
+                .hero-right-content{
+                    text-align: right;
+                    img{
+                        width: 65%;
+                        margin-top: -5rem;
+                        margin-right: -.8rem;
+                    }
+
+                    .gImgg{
+                        margin-right: 2rem;
+                    }
+                } 
+            }
+        }
+    }
+
+    .about-section{
+        .about-container{
+            .about-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(-90deg);
+                    top: 9rem;
+                    left: -5rem;
+                }
+                .about-left-content{
+                    text-align: center;
+                    h1{
+                        font-size: 35px;
+                    }
+                    .exp-years{
+                        h2{
+                            font-size: 35px;
+                            margin-top: 2.2rem;
+                        }
+                    }
+                }
+                .about-right-content{
+                    .dots-img{
+                        margin-top: 3rem;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .whatWeDo-section{
+        .whatWeDo-container{
+            .whatWeDo-row{
+                margin-top: 0;
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 9rem;
+                    right: -4rem;
+                }
+
+                .building-col, .sofa-col, .sketch-col{
+                    h4{
+                        font-size: 20px;
+                    }
+                }
+
+                .sketch-col{
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+
+    .ourClients-section{
+        .ourClients-container{
+            .ourClients-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(-90deg);
+                    top: 9rem;
+                    left: -5rem;
+                }
+
+                .clients-brands{
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+
+    .subscribe-section{
+        .subscribe-container{
+            .subscribe-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 0rem;
+                    right: -4rem;
+                }
+                .subscribe-inner{
+                    .subscribe-input{
+                        display: block;
+                        .form-control{
+                            width: 100%;
+                            margin-bottom: 2rem;
+                            &::placeholder{
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .aboutContact-section{
+        .aboutContact-container{
+            .aboutContact-row{
+                .aboutContact-content{
+                    margin-top: -2rem !important;
+                    margin-bottom: -2rem !important;
+                }
+            }
+        }
+    }
+
+    .footer-section{
+        padding-top: 5rem;
+        .footer-container{
+            .footer-row{
+                .left-footer-content{
+                    order: 2;
+                    margin-bottom: 1rem;
+
+                    .footer-social-media{
+                        ul{
+                            margin-right: 2rem;
+                        }
+                    }
+                }
+                .right-footer-content{
+                    order: 1;
+                    margin-bottom: 1rem;
+                }
+                .copyright-footer-content{
+                    order: 3;
+                }
+
+            }
+        }
+    }
+}
+
+
+@media (min-width: 575.98px) and (max-width: 767.98px){
+    /*
+    .navbar-overlay{
+        .nav-wrapper{
+            width: 50% !important;
+
+            .navbar-top{
+                overflow: visible !important;
+                height: 75vh !important;
+            }
+        }
+    }
+    */
+    .hero-section{
+        .hero-container{
+            .hero-row{
+
+                &::after{
+                    font-size: 30px;
+                    top: -2rem;
+                    right: -8rem;
+                }
+                .hero-left-content{
+                    .hero-slogan-border{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                        width: 200px;
+                        height: 350px;
+                        margin-top: -3rem;
+                        margin-left: -12rem;
+                    }
+                }
+
+                .hero-right-content{
+                    img{
+                        width: 50%;
+                        margin-top: -25rem;
+                        margin-right: 0rem;
+                    }
+
+                    .gImg{
+                        width: 40%;
+                    }
+
+                    .gImgg{
+                        width: 30%;
+                        margin-right: 3rem;
+                    }
+                } 
+            }
+        }
+    }
+
+    .separation-line{
+        display: none;
+    }
+
+    .about-section{
+        .about-container{
+            .about-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(-90deg);
+                    top: 23rem;
+                    left: -8rem;
+                }
+                .about-left-content{
+                    order: 1;
+                    h1{
+                        font-size: 30px;
+                    }
+                    p{
+                        font-size: 10px;
+                        margin-bottom: 3.5rem;
+                    }
+                    .exp-years{
+                        margin: auto;
+                        h2{
+                            font-size: 30px;
+                            margin-top: 2.8rem;
+                            margin-left: 5rem;
+                        }
+                    }
+                }
+                .about-right-content{
+                    .dots-img{
+                        margin-top: 3rem;
+                        img{
+                            margin-bottom: 3rem;
+                        }
+                        .dots{
+                            bottom: 20%;
+                            right: 9%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .whatWeDo-section{
+        margin-top: -8rem;
+        .whatWeDo-container{
+            .whatWeDo-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 10rem !important;
+                    right: -8rem;
+                }
+            }
+        }
+    }
+
+    .ourClients-section{
+        margin-top: -10rem;
+        .ourClients-container{
+            .ourClients-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(-90deg);
+                    top: 12rem;
+                    left: -8rem;
+                }
+            }
+        }
+    }
+
+    .subscribe-section{
+        margin-top: -8rem;
+        .subscribe-container{
+            .subscribe-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 0rem;
+                    right: -8rem;
+                }
+                .subscribe-inner{
+                    .subscribe-input{
+                        display: block;
+                        .form-control{
+                            width: 100%;
+                            margin-bottom: 2rem;
+                            &::placeholder{
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .aboutMvv-section{
+        margin-top: 1rem;
+        .aboutMvv-container{
+            .aboutMvv-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(-90deg);
+                    top: 15rem !important;
+                    left: -10rem;
+                }
+    
+                .aboutMvv-content{
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+
+    .aboutTeam-section{
+        margin-top: -20rem;
+        .aboutTeam-container{
+            .aboutTeam-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 6rem !important;
+                    right: -6rem;
+                }
+            }
+        }
+    }
+
+    .aboutContact-section{
+        margin-top: -12rem;
+        .aboutContact-container{
+            .aboutContact-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(-90deg);
+                    top: 2rem;
+                    left: -6rem;
+                }
+            } 
+        }
+    }
+
+    .servicesDetails-section{
+        margin-top: 5rem;
+        .servicesDetails-container{
+            .servicesDetails-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(-90deg);
+                    top: 20rem !important;
+                    left: -8rem;
+                }
+    
+                .planning-vol, .architecture-vol{
+                    margin-top: 0rem !important;
+                }
+            }
+        }
+    }
+
+    .servicesWorkDemo-section{
+        margin-top: -15rem;  
+        .servicesWorkDemo-container{
+            .servicesWorkDemo-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 8rem !important;
+                    right: -8rem;
+                }
+            }
+        }
+    }
+
+    .galleryCards-section{
+        margin-top: 10rem;  
+        .galleryCards-container{
+            .galleryCards-row{
+                text-align: center;
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 8rem;
+                    right: -8.7rem;
+                }
+    
+                .cardImg{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    .contactForm-section{
+        .contactForm-container{
+            .contactForm-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 6.5rem;
+                    right: -8rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 767.98px) and (max-width: 991.98px){
+    .col-md-2 {
+        max-width: 100% !important;
+    }
+    .col-md-6 {
+        flex: 1 0 50% !important;
+        max-width: 100% !important;
+    }
+    /*
+    .navbar-overlay{
+        .nav-wrapper{
+            width: 70% !important;
+
+            .navbar-top{
+                overflow: visible !important;
+                height: 100vh !important;
+            }
+        }
+    }
+    */
+    .hero-section{
+        .hero-container{
+            .hero-row{
+
+                &::after{
+                    right: -6rem;
+                }
+                .hero-left-content{
+                    .hero-slogan-border{
+                        margin-top: -3rem;
+                        margin-left: -5rem;
+                    }
+                }
+
+                .hero-right-content{
+                    img{
+                        width: 80%;
+                        margin-top: -5rem;
+                        margin-right: 0rem;
+                    }
+                } 
+            }
+        }
+    }
+
+    .separation-line{
+        display: none;
+    }
+
+    .about-section{
+        margin-top: 5rem;
+        .about-container{
+            .about-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(-90deg);
+                    top: 13rem;
+                    left: -5rem;
+                }
+                .about-left-content{
+                    h1{
+                        font-size: 30px;
+                    }
+                    p{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    .whatWeDo-section{
+        margin-top: -5rem;
+        .whatWeDo-container{
+            .whatWeDo-row{
+                margin-top: 0;
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 3rem;
+                    right: -4rem;
+                }
+            }
+        }
+    }
+    
+    .ourClients-section{
+        margin-top: -8rem;
+        .ourClients-container{
+            .ourClients-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(-90deg);
+                    top: 12rem;
+                    left: -7rem;
+                }
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: auto;
+            }
+        }
+    }
+    
+    .subscribe-section{
+        margin-top: -8rem;
+        .subscribe-container{
+            .subscribe-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 0rem;
+                    right: -6rem;
+                }
+                .subscribe-inner{
+                    .subscribe-input{
+                        display: block;
+                        .form-control{
+                            width: 100%;
+                            margin-bottom: 2rem;
+                            &::placeholder{
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .footer-section{
+        padding-top: 5rem;
+        .footer-container{
+            .footer-row{
+                .left-footer-content{
+                    order: 1;
+                    margin-bottom: 1rem;
+    
+                    .footer-social-media{
+                        ul{
+                            margin-right: 2rem;
+                        }
+                    }
+                }
+                .right-footer-content{
+                    order: 2;
+                    margin-bottom: 1rem;
+                }
+                .copyright-footer-content{
+                    order: 3;
+                }
+    
+            }
+        }
+    }
+    
+    .galleryCards-section{
+        margin-top: 10rem;
+    }
+
+    .aboutMvv-section{
+        margin-top: 8rem;
+        .aboutMvv-container{
+            .aboutMvv-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(-90deg);
+                    top: 5rem !important;
+                    left: -8rem;
+                }
+    
+                .aboutMvv-content{
+                    p{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .aboutTeam-section{
+        margin-top: -15rem;
+        .aboutTeam-container{
+            .aboutTeam-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 9rem !important;
+                    right: -6rem;
+                }
+            }
+        }
+    }
+    
+    .aboutContact-section{
+        margin-top: -12rem;
+        .aboutContact-container{
+            .aboutContact-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(-90deg);
+                    top: 2rem;
+                    left: -6rem;
+                }
+            } 
+        }
+    }
+    
+    .servicesDetails-section{
+        margin-top: 8rem;
+        .servicesDetails-container{
+            .servicesDetails-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(-90deg);
+                    top: 10rem !important;
+                    left: -8rem;
+                }
+    
+                .planning-vol, .architecture-vol{
+                    margin-top: 0rem !important;
+                }
+            }
+        }
+    }
+    
+    .servicesWorkDemo-section{
+        margin-top: -10rem;  
+        .servicesWorkDemo-container{
+            .servicesWorkDemo-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 8rem !important;
+                    right: -8rem;
+                }
+            }
+        }
+    }
+    
+    .galleryCards-section{
+        .galleryCards-container{
+            .galleryCards-row{
+                text-align: center;
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 8rem;
+                    right: -8.7rem;
+                }
+    
+                .cardImg{
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    
+    .contactForm-section{
+        .contactForm-container{
+            .contactForm-row{
+                &::after{
+                    font-size: 30px;
+                    transform: rotate(90deg);
+                    top: 6.5rem;
+                    right: -8rem;
+                }
+            }
+        }
+    }
+}

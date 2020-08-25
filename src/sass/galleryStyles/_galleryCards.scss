@@ -1,0 +1,79 @@
+.galleryCards-section{
+    padding: 60px 0;
+    .galleryCards-container{
+        .galleryCards-row{
+            position: relative;
+
+            &::after{
+                content: 'Our Projects';
+                position: absolute;
+                top: 13rem;
+                right: -15rem;
+                font-size: 50px;
+                color: $forth-color;
+                transform: rotate(90deg);
+            }
+            .card-container{
+                .singleCard{
+                    .cardContent{
+                        transform: perspective(1000px);
+                        transition: 1s;
+                        transform-style: preserve-3d;
+                        position: relative;
+                        .sideOne{
+                            position: relative;
+                            transform: rotateY(0deg);
+                            z-index: 2;
+                            margin-bottom: 30px;
+                            .card{
+                                border: none;
+                                background: transparent;
+    
+                                .card-body{
+                                    .cardImg{
+                                        img{
+                                            border-radius: 20px;
+                                        } 
+                                    }
+                                }
+                            }
+                        }
+
+                        .sideTwo{
+                            position: absolute;
+                            top: 15rem;
+                            left: 0;
+                            transform: rotateY(-180deg);
+
+                            .card{
+                                background: transparent !important;
+                                border: 1px solid $forth-color;
+                            }
+                            p{
+                                color: $third-color;
+                                font-family: 'Lemonada', cursive;
+                            }
+                        }
+
+                        .sideOne, .sideTwo{
+                            backface-visibility: hidden;
+                            transition: 1s;
+                            transform-style: preserve-3d;
+
+                            & .card{
+                                min-height: 312px;
+                            }
+                        }
+                    }
+                    &:hover .sideOne{
+                        transform: rotateY(180deg);
+                    }
+                    &:hover .sideTwo{
+                        transform: rotateY(0deg);
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

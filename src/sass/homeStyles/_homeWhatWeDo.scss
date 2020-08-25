@@ -1,0 +1,23 @@
+.whatWeDo-section{
+    background: url(../../assets/dot.png) 0 0 repeat;
+    .whatWeDo-container{
+        .whatWeDo-row{
+            position: relative;
+            text-align: center;
+            margin-top: 5rem;
+            &::after{
+                content: 'What We Do';
+                position: absolute;
+                top: 0;
+                right: -15rem;
+                font-size: 50px;
+                color: $forth-color;
+                transform: rotate(90deg);
+            }
+            h4{
+                margin-top: 2rem;
+                color: $third-color;
+            }
+        }
+    }
+}

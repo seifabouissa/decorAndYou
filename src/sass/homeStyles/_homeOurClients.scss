@@ -1,0 +1,29 @@
+.ourClients-section{
+    .ourClients-container{
+        .ourClients-row{
+            position: relative;
+            text-align: center;
+
+            &::after{
+                content: 'Our Clients';
+                position: absolute;
+                top: 0;
+                left: -15rem;
+                font-size: 50px;
+                color: $forth-color;
+                transform: rotate(-90deg);
+            }
+
+            .clients-brands{
+                img{
+                    opacity: .5;
+                    transition: .5s;
+
+                    &:hover{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}

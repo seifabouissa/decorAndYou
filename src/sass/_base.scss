@@ -1,0 +1,119 @@
+@import './variables';
+/*
+font-family: 'Monoton', cursive !important;
+font-family: 'Raleway', sans-serif !important;
+*/
+
+html,body{
+    font-family: 'Monoton', cursive !important;
+    background: $first-color !important;
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+    cursor: none;
+
+    body{
+        & *{
+            z-index: 2;
+        }
+        &::after{
+            animation: grain 1s steps(10) infinite;
+            background-image: url(../assets/grains.png);
+            content: "";
+            height: 300%;
+            left: -50%;
+            opacity: .6;
+            position: fixed;
+            top: -110%;
+            width: 300%;
+            z-index: 1;
+        }
+    }
+}
+
+
+a,input,span,button{
+    cursor: none !important;
+}
+
+
+a{
+    text-decoration: none !important;
+}
+
+.between{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.between-footer{
+    padding-top: 10rem;
+}
+
+h1,h4,h3{
+    color: $forth-color;
+}
+
+h4{
+    margin-top: 1rem !important;
+}
+
+p{
+    color: $third-color;
+}
+
+.center{
+    margin-top: 9rem;
+}
+
+.separation-line{
+    width: 50%;
+    height: 5px;
+    border-radius: 20px;
+    border: 1px solid $forth-color;
+    margin: auto;
+    z-index: 2;
+}
+
+.subscribe-btn{
+    .btn{
+        border-radius: 20px;
+        background: $forth-color;
+        color: $first-color;
+        margin-left: 10px;
+    }
+}
+
+.cursor {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid $forth-color;
+    border-radius: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 9999;
+    mix-blend-mode: difference;
+}
+
+.progress-icon {
+    position: fixed;
+    bottom: 0;
+    left: 1rem;
+    width: 50px;
+    height: 50px;
+  }
+
+@keyframes grain {
+    0%, 100% { transform: translate(0, 0); }
+    10% { transform: translate(-5%, -10%); }
+    20% { transform: translate(-15%, 5%); }
+    30% { transform: translate(7%, -25%); }
+    40% { transform: translate(-5%, 25%); }
+    50% { transform: translate(-15%, 10%); }
+    60% { transform: translate(15%, 0); }
+    70% { transform: translate(0, 15%); }
+    80% { transform: translate(3%, 35%); }
+    90% { transform: translate(-10%, 10%); }
+}

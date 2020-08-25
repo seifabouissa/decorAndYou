@@ -1,0 +1,49 @@
+.contactForm-section{
+    .contactForm-container{
+        .contactForm-row{
+            position: relative;
+
+            &::after{
+                content: 'Drop Us A Line';
+                position: absolute;
+                top: 9rem;
+                right: -15rem;
+                font-size: 50px;
+                color: $forth-color;
+                transform: rotate(90deg);
+            }
+
+            .contactFrom-content{
+                .contact-wrapper{
+                    display: block;
+                    width: 70%;
+                    text-align: center;
+                    margin: 0 auto;
+                    .form-group{
+                        input, textarea{
+                            background: transparent;
+                            border: 1px solid $forth-color;
+                            border-radius: 5px;
+    
+                            &::placeholder{
+                                color: $third-color;
+                            }
+                        }
+    
+                        .btnContact{
+                            padding: 10px;
+                            color: $third-color;
+                            transition: .5s ease-in-out;
+    
+                            &:hover{
+                                background: transparent;
+                                color: $forth-color;
+                                border-color: $third-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

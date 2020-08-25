@@ -1,0 +1,119 @@
+.aboutTeam-section{
+    .aboutTeam-container{
+        .aboutTeam-row{
+            position: relative;
+            margin-top: 5rem;
+            margin-bottom: -5rem;
+
+            &::after{
+                content: 'Our Team';
+                position: absolute;
+                top: 12rem !important;
+                right: -15rem;
+                font-size: 50px;
+                color: $forth-color;
+                transform: rotate(90deg);
+            }
+            .aboutTeam-carousel{
+                .team-item{
+                    &:hover{
+                        & .team-bg-hover{
+                            opacity: 1;
+                            top: 0;
+                        }
+
+                        & .team-text {
+                            bottom: 15px;
+
+                            & ul{
+                                opacity: 1;
+                            }
+                        }
+
+                        & .team-img{
+                            img{
+                                filter: grayscale(0%);
+                                -webkit-filter: grayscale(0%);
+                            }
+                        }
+                    }
+
+                    .team-bg-hover{
+                        background: $forth-color;
+                        background: -webkit-gradient(linear, left bottom, left top, from($forth-color), to(rgba(233, 32, 79, 0)));
+                        background: linear-gradient(0deg, $forth-color 0%, rgba(233, 32, 79, 0) 100%);
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        z-index: 3;
+                        left: 0;
+                        top: 0;
+                        border-radius: 20px;
+                        pointer-events: none;
+                        opacity: 0;
+                        transition: all ease-in-out .2s;
+                        -webkit-transition: all ease-in-out .2s;
+                        -moz-transition: all ease-in-out .2s;
+                        -ms-transition: all ease-in-out .2s;
+                        -o-transition: all ease-in-out .2s;
+                        -webkit-border-radius: 20px;
+                        -moz-border-radius: 20px;
+                        -ms-border-radius: 20px;
+                        -o-border-radius: 20px;
+                    }
+                    .team-text{
+                         transition: all ease-in-out .2s;
+                        -webkit-transition: all ease-in-out .2s;
+                        -moz-transition: all ease-in-out .2s;
+                        -ms-transition: all ease-in-out .2s;
+                        -o-transition: all ease-in-out .2s;
+                        position: absolute;
+                        bottom: 0px;
+                        left: 20px;
+                        z-index: 4;
+                        
+                        h3{
+                            font-size: 24px;
+                            margin: 0;
+                            color: $third-color;
+                            font-weight: 700;
+                        }
+                        
+                        p{
+                            margin: 0;
+                            font-size: 13px;
+                            color: $third-color;
+                        }
+
+                        ul{
+                            list-style: none;
+                            opacity: 0;
+                            padding: 0;
+                            li{
+                                display: inline;
+                                a{
+                                    color: $third-color;
+                                    font-size: 13px;
+                                    margin-right: 10px;
+                                }
+                            }
+                        }
+
+                    }
+                    .team-img{
+                        img{
+                            overflow: hidden;
+                            filter: grayscale(100%);
+                            -webkit-filter: grayscale(100%);
+                            border-radius: 20px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.team-slider .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 20px;
+}

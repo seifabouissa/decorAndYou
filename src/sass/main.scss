@@ -1,0 +1,27 @@
+@import './base';
+@import './preloader';
+@import './header';
+@import './navbar';
+@import './footer';
+//Home
+@import './homeStyles/hero';
+@import './homeStyles/homeAbout';
+@import './homeStyles/homeWhatWeDo';
+@import './homeStyles/homeOurClients';
+@import './homeStyles/homeSubscribe';
+//About
+@import './aboutStyles//aboutHero';
+@import './aboutStyles/aboutMvv';
+@import './aboutStyles/aboutTeam';
+@import './aboutStyles/aboutContact';
+//Services
+@import './servicesStyles/servicesDetails';
+@import './servicesStyles/servicesWorkDemo';
+//Gallery
+@import './galleryStyles/galleryProjects';
+@import './galleryStyles/galleryCards';
+//Contact
+@import './contactStyles/contactForm.scss';
+//Responsive
+@import './responsive';
+

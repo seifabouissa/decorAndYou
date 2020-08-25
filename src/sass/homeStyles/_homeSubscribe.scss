@@ -1,0 +1,41 @@
+.subscribe-section{
+    background: url(../../assets/dot.png) 0 0 repeat;
+    .subscribe-container{
+        .subscribe-row{
+            position: relative;
+            text-align: center;
+
+            &::after{
+                content: 'Subscribe';
+                position: absolute;
+                top: 0;
+                right: -15rem;
+                font-size: 50px;
+                color: $forth-color;
+                transform: rotate(90deg);
+            }
+
+            .subscribe-inner{
+                .subscribe-input{
+                    display: flex;
+                    justify-content: center;
+                    .form-control{
+                        width: 50%;
+                        background: transparent;
+                        border-color: $forth-color;
+                        border-radius: 20px;
+
+                        &:focus{
+                            box-shadow: none;
+                            border-color: $third-color;
+                        }
+
+                        &::placeholder{
+                            color: $third-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

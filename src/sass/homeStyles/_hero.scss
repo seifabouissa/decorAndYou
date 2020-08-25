@@ -1,0 +1,61 @@
+.hero-section{
+    height: 100vh;
+    padding-top: 20rem;
+    .hero-container{
+        .hero-row{
+            position: relative;
+
+            &::after{
+                content: 'Decoration';
+                position: absolute;
+                top: 9rem;
+                right: -32rem;
+                font-size: 50px;
+                color: $forth-color;
+                transform: rotate(90deg);
+            }
+            .hero-left-content{
+               h4,h1,a{
+                   color: $third-color;
+               }
+    
+               h1{
+                   font-size: 70px;
+                   margin-bottom: 7rem;
+                }
+    
+                a{
+                    transition: .2s ease-in-out;
+                    font-family: 'Lemonada', cursive;
+                    &:hover{
+                        color: $forth-color;
+                    }
+    
+                    i{
+                        font-size: 1.5em;
+                        vertical-align: middle;
+                    }
+                }
+    
+                .hero-slogan-border{
+                    border: 5px solid $forth-color;
+                    width: 300px;
+                    height: 550px;
+                    margin-top: -31rem;
+                    margin-left: -4rem;
+                    border-radius: 20px;
+                }
+            }
+            .hero-right-content{
+                text-align: center;
+                img{
+                    margin-top: -5rem;
+                    width: 100%;
+                }
+                .gImg{
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
