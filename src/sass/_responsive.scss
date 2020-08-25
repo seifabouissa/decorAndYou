@@ -212,18 +212,6 @@
     .cursor{
         display: none;
     }
-    /*
-    .navbar-overlay{
-        .nav-wrapper{
-            width: 50% !important;
-
-            .navbar-top{
-                overflow: visible !important;
-                height: 75vh !important;
-            }
-        }
-    }
-    */
     .hero-section{
         .hero-container{
             .hero-row{
@@ -413,18 +401,17 @@
 
 
 @media (min-width: 575.98px) and (max-width: 767.98px){
-    /*
     .navbar-overlay{
         .nav-wrapper{
             width: 50% !important;
 
             .navbar-top{
+                margin-top: 5rem !important;
                 overflow: visible !important;
-                height: 75vh !important;
+                height: 100vh !important;
             }
         }
     }
-    */
     .hero-section{
         .hero-container{
             .hero-row{
@@ -697,6 +684,7 @@
             width: 70% !important;
 
             .navbar-top{
+                margin-top: 5rem !important;
                 overflow: visible !important;
                 height: 100vh !important;
             }
