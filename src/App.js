@@ -24,7 +24,7 @@ const App = () => {
         <ScrollViewPort />
 
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/decorAndYou" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/services" component={Services} />
           <Route path="/gallery" component={Gallery} />
