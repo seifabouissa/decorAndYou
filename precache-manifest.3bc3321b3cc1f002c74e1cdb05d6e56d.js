@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b23794264e7a8fb2bb4a96f1bdf6b04e",
+    "revision": "7f1d3430ddf3dde9ef9d6e1b25287079",
     "url": "/decorAndYou/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/decorAndYou/static/css/2.954f26e3.chunk.css"
   },
   {
-    "revision": "fd61ec6103a097498853",
-    "url": "/decorAndYou/static/css/main.d00b8fea.chunk.css"
+    "revision": "5bd9c3646498c211c569",
+    "url": "/decorAndYou/static/css/main.5fceff0a.chunk.css"
   },
   {
     "revision": "c9940aa86a1330f5489a",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/decorAndYou/static/js/2.901f2a5f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fd61ec6103a097498853",
+    "revision": "5bd9c3646498c211c569",
     "url": "/decorAndYou/static/js/main.2e917bb3.chunk.js"
   },
   {
