@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/decorAndYou/static/css/main.fc4a4f73.chunk.css",
-    "main.js": "/decorAndYou/static/js/main.9b0c15ef.chunk.js",
-    "main.js.map": "/decorAndYou/static/js/main.9b0c15ef.chunk.js.map",
+    "main.js": "/decorAndYou/static/js/main.659ee5d3.chunk.js",
+    "main.js.map": "/decorAndYou/static/js/main.659ee5d3.chunk.js.map",
     "runtime-main.js": "/decorAndYou/static/js/runtime-main.614c1479.js",
     "runtime-main.js.map": "/decorAndYou/static/js/runtime-main.614c1479.js.map",
     "static/css/2.954f26e3.chunk.css": "/decorAndYou/static/css/2.954f26e3.chunk.css",
     "static/js/2.901f2a5f.chunk.js": "/decorAndYou/static/js/2.901f2a5f.chunk.js",
     "static/js/2.901f2a5f.chunk.js.map": "/decorAndYou/static/js/2.901f2a5f.chunk.js.map",
     "index.html": "/decorAndYou/index.html",
-    "precache-manifest.6e999506dcfe20965e1ffdea52691057.js": "/decorAndYou/precache-manifest.6e999506dcfe20965e1ffdea52691057.js",
+    "precache-manifest.8b36e7dd1571fc5964e71a36f391ab7d.js": "/decorAndYou/precache-manifest.8b36e7dd1571fc5964e71a36f391ab7d.js",
     "service-worker.js": "/decorAndYou/service-worker.js",
     "static/css/2.954f26e3.chunk.css.map": "/decorAndYou/static/css/2.954f26e3.chunk.css.map",
     "static/css/main.fc4a4f73.chunk.css.map": "/decorAndYou/static/css/main.fc4a4f73.chunk.css.map",
@@ -40,6 +40,6 @@
     "static/css/2.954f26e3.chunk.css",
     "static/js/2.901f2a5f.chunk.js",
     "static/css/main.fc4a4f73.chunk.css",
-    "static/js/main.9b0c15ef.chunk.js"
+    "static/js/main.659ee5d3.chunk.js"
   ]
 }
