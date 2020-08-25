@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/decorAndYou/static/css/main.6e9c98b0.chunk.css",
+    "main.css": "/decorAndYou/static/css/main.d00b8fea.chunk.css",
     "main.js": "/decorAndYou/static/js/main.291a6deb.chunk.js",
     "main.js.map": "/decorAndYou/static/js/main.291a6deb.chunk.js.map",
     "runtime-main.js": "/decorAndYou/static/js/runtime-main.614c1479.js",
@@ -9,10 +9,10 @@
     "static/js/2.901f2a5f.chunk.js": "/decorAndYou/static/js/2.901f2a5f.chunk.js",
     "static/js/2.901f2a5f.chunk.js.map": "/decorAndYou/static/js/2.901f2a5f.chunk.js.map",
     "index.html": "/decorAndYou/index.html",
-    "precache-manifest.917afe09da33b2e8f6949799c40124a3.js": "/decorAndYou/precache-manifest.917afe09da33b2e8f6949799c40124a3.js",
+    "precache-manifest.5fe6879bb55c7fdfdd2ef8b4e16cadd8.js": "/decorAndYou/precache-manifest.5fe6879bb55c7fdfdd2ef8b4e16cadd8.js",
     "service-worker.js": "/decorAndYou/service-worker.js",
     "static/css/2.954f26e3.chunk.css.map": "/decorAndYou/static/css/2.954f26e3.chunk.css.map",
-    "static/css/main.6e9c98b0.chunk.css.map": "/decorAndYou/static/css/main.6e9c98b0.chunk.css.map",
+    "static/css/main.d00b8fea.chunk.css.map": "/decorAndYou/static/css/main.d00b8fea.chunk.css.map",
     "static/js/2.901f2a5f.chunk.js.LICENSE.txt": "/decorAndYou/static/js/2.901f2a5f.chunk.js.LICENSE.txt",
     "static/media/aboutHero.png": "/decorAndYou/static/media/aboutHero.fa34dbb5.png",
     "static/media/aboutImg.png": "/decorAndYou/static/media/aboutImg.dd6026aa.png",
@@ -39,7 +39,7 @@
     "static/js/runtime-main.614c1479.js",
     "static/css/2.954f26e3.chunk.css",
     "static/js/2.901f2a5f.chunk.js",
-    "static/css/main.6e9c98b0.chunk.css",
+    "static/css/main.d00b8fea.chunk.css",
     "static/js/main.291a6deb.chunk.js"
   ]
 }
