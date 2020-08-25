@@ -48,7 +48,18 @@ const Navbar = props => {
                                 <Link className="navbar-link" to="/contact">Contact</Link>
                             </div>
                         </div>
-                        <div className="navbar-bottom">
+                    </nav>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default withRouter(Navbar);
+
+
+/*
+<div className="navbar-bottom">
                             <ul className="info-links">
                                 <li className="link-item">
                                     <div className="link-title">Email</div>
@@ -75,11 +86,4 @@ const Navbar = props => {
                                 </li>
                             </ul>
                         </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    )
-}
-
-export default withRouter(Navbar);
+*/

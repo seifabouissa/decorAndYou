@@ -50,7 +50,7 @@
 
             .navbar-top{
                 display: flex;
-                margin-top: 5rem;
+                margin-top: 2rem;
 
                 .links-wrapper{
                     /*
@@ -71,6 +71,7 @@
                         font-weight: 500;
                         background-color: $forth-color;
                         width: 280px;
+                        font-size: 30px;
                         &:hover {
                             background-color: darken($first-color, 10%);
                             color: $third-color;
@@ -79,6 +80,7 @@
                 }
             }
 
+            /*
             .navbar-bottom{
                 .info-links{
                     padding: 0;
@@ -130,6 +132,7 @@
                     }
                 }
             }
+            */
         }
     }
 }
