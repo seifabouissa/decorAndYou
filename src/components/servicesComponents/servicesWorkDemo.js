@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import Aos from 'aos';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.min.css';
@@ -119,9 +120,9 @@ const ServicesWorkDemo = () => {
                             </OwlCarousel>
                         </div>
                         <div className="col-md-12 servicesWorkDemo-button">
-                            <a href="./#/gallery" class="subscribe-btn">
+                            <Link href="./#/gallery" class="subscribe-btn">
                                 <button class="btn btn-theme" type="submit">View All Projects</button>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
