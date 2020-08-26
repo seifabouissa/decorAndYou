@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9767192cc8533f0f92d75c7373e0feb0",
+    "revision": "ab0858f9d491fa7576fdfe804a8981a0",
     "url": "/decorAndYou/index.html"
   },
   {
-    "revision": "c9940aa86a1330f5489a",
+    "revision": "73a51cbf2f2f68de96ec",
     "url": "/decorAndYou/static/css/2.954f26e3.chunk.css"
   },
   {
-    "revision": "56f9af718aedae6a4494",
-    "url": "/decorAndYou/static/css/main.fc4a4f73.chunk.css"
+    "revision": "5926e706545d6bb34ce7",
+    "url": "/decorAndYou/static/css/main.60aae8d8.chunk.css"
   },
   {
-    "revision": "c9940aa86a1330f5489a",
-    "url": "/decorAndYou/static/js/2.901f2a5f.chunk.js"
+    "revision": "73a51cbf2f2f68de96ec",
+    "url": "/decorAndYou/static/js/2.7a59c00d.chunk.js"
   },
   {
     "revision": "a9bdc4b7da9c32408749acece13c610e",
-    "url": "/decorAndYou/static/js/2.901f2a5f.chunk.js.LICENSE.txt"
+    "url": "/decorAndYou/static/js/2.7a59c00d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "56f9af718aedae6a4494",
-    "url": "/decorAndYou/static/js/main.659ee5d3.chunk.js"
+    "revision": "5926e706545d6bb34ce7",
+    "url": "/decorAndYou/static/js/main.ab3b9092.chunk.js"
   },
   {
     "revision": "14f27042b13986deb434",
