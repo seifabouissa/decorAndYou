@@ -120,7 +120,7 @@ const ServicesWorkDemo = () => {
                             </OwlCarousel>
                         </div>
                         <div className="col-md-12 servicesWorkDemo-button">
-                            <Link to="./#/gallery" class="subscribe-btn">
+                            <Link to="./gallery" class="subscribe-btn">
                                 <button class="btn btn-theme" type="submit">View All Projects</button>
                             </Link>
                         </div>
