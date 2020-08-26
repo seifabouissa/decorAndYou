@@ -8,7 +8,7 @@ const HomeAbout = () => {
     useEffect(() => {
         Aos.init({ duration: 2000 });
     }, []);
-    
+
     return (
         <>
             <div className="separation-line"></div>
@@ -17,7 +17,9 @@ const HomeAbout = () => {
                     <div data-aos="fade-up" className="row about-row">
                         <div className="col-md-6 about-left-content">
                             <h1>We Are The Leader In The Architectural</h1>
-                            <p>For each project we establish relationships with partners who we know will help us create added value for your project. As well as bringing together the public and private sectors, we make sector-overarching links to gather knowledge and to learn from each other.</p>
+                            <div className="paragraphStyling">
+                                <p>For each project we establish relationships with partners who we know will help us create added value for your project. As well as bringing together the public and private sectors, we make sector-overarching links to gather knowledge and to learn from each other.</p>
+                            </div>
                             <div className="exp-years">
                                 <h2>20<span>Years Of Experiance</span></h2>
                             </div>

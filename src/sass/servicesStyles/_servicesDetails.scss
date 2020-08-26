@@ -14,13 +14,12 @@
                 transform: rotate(-90deg);
             }
 
-            h4{
-                color: $third-color;
+            .col-md-6{
+                margin-top: 3rem!important;
             }
 
-            p{
-                font-family: 'Lemonada', cursive;
-                font-size: 11px;
+            h4{
+                color: $third-color;
             }
         }
     }

@@ -3,13 +3,12 @@
     .aboutContact-container{
         .aboutContact-row{
             position: relative;
-            margin-top: 5rem;
-            margin-bottom: -5rem;
+            margin-top: -   rem;
 
             &::after{
                 content: 'Contact Us';
                 position: absolute;
-                top: 0 !important;
+                top: 3rem !important;
                 left: -15rem;
                 font-size: 50px;
                 color: $forth-color;
@@ -19,6 +18,7 @@
             .aboutContact-content{
                 text-align: center;
                 h2{
+                    font-size: 1.6rem;
                     color: $third-color;
                 }
             }

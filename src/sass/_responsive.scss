@@ -143,8 +143,8 @@
     }
 
     .aboutContact-section{
-        margin-top: -8rem !important;
-        margin-bottom: 2rem !important;
+        margin-top: 2rem !important;
+        margin-bottom: -2rem !important;
         .aboutContact-container{
             .aboutContact-row{
                 &::after{
@@ -163,7 +163,7 @@
                 &::after{
                     font-size: 30px;
                     transform: rotate(-90deg);
-                    top: 20rem !important;
+                    top: 30rem !important;
                     left: -6rem !important;
                 }
             }
@@ -309,10 +309,6 @@
                         font-size: 20px;
                     }
                 }
-
-                .sketch-col{
-                    margin-top: 1rem;
-                }
             }
         }
     }
@@ -407,6 +403,10 @@
                 margin-top: -3rem !important;
                 overflow: visible !important;
                 height: 100vh !important;
+
+                .links-wrapper{
+                    padding: 90px !important;
+                }
             }
         }
     }
@@ -591,10 +591,11 @@
         margin-top: -12rem;
         .aboutContact-container{
             .aboutContact-row{
+                margin-top: 5rem;
                 &::after{
                     font-size: 30px;
                     transform: rotate(-90deg);
-                    top: 2rem;
+                    top: 2rem !important;
                     left: -6rem;
                 }
             } 
@@ -608,7 +609,7 @@
                 &::after{
                     font-size: 30px;
                     transform: rotate(-90deg);
-                    top: 20rem !important;
+                    top: 30rem !important;
                     left: -8rem;
                 }
     
@@ -685,6 +686,10 @@
                 margin-top: -3rem !important;
                 overflow: visible !important;
                 height: 100vh !important;
+
+                .links-wrapper{
+                    padding: 90px !important;
+                }
             }
         }
     }
@@ -836,13 +841,13 @@
                 &::after{
                     font-size: 30px;
                     transform: rotate(-90deg);
-                    top: 5rem !important;
+                    top: 7rem !important;
                     left: -8rem;
                 }
     
                 .aboutMvv-content{
-                    p{
-                        font-size: 12px;
+                    .paragraphStyling{
+                        width: 200px !important;
                     }
                 }
             }
@@ -864,13 +869,13 @@
     }
     
     .aboutContact-section{
-        margin-top: -12rem;
+        margin-top: -3rem;
         .aboutContact-container{
             .aboutContact-row{
                 &::after{
                     font-size: 30px;
                     transform: rotate(-90deg);
-                    top: 2rem;
+                    top: 0rem !important;
                     left: -6rem;
                 }
             } 
@@ -884,12 +889,8 @@
                 &::after{
                     font-size: 30px;
                     transform: rotate(-90deg);
-                    top: 10rem !important;
+                    top: 18rem !important;
                     left: -8rem;
-                }
-    
-                .planning-vol, .architecture-vol{
-                    margin-top: 0rem !important;
                 }
             }
         }
@@ -902,7 +903,7 @@
                 &::after{
                     font-size: 30px;
                     transform: rotate(90deg);
-                    top: 8rem !important;
+                    top: 12rem !important;
                     right: -8rem;
                 }
             }

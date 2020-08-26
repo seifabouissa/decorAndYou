@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import ScrollViewPort from './components/scrollViewPort';
 import Header from './components/header';
 import Navbar from './components/navbar';
@@ -16,7 +16,7 @@ const App = () => {
   const [menuState, setMenuState] = useState(false);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Cursor />
         <Header menuState={menuState} setMenuState={setMenuState} />
@@ -24,7 +24,7 @@ const App = () => {
         <ScrollViewPort />
 
         <Switch>
-          <Route exact path="/decorAndYou" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/services" component={Services} />
           <Route path="/gallery" component={Gallery} />
@@ -32,7 +32,7 @@ const App = () => {
         </Switch>
         <Footer />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

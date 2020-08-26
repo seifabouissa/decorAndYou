@@ -18,17 +18,17 @@ const AboutMvv = () => {
                     <div className="col-md-4 aboutMvv-content">
                         <img src={mission} />
                         <h4>Mission</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt vel non, eligendi dolore animi itaque alias assumenda error dolorem soluta.</p>
+                        <p className="paragraphStyling">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt vel non, eligendi dolore animi itaque alias assumenda error dolorem soluta.</p>
                     </div>
                     <div className="col-md-4 aboutMvv-content">
                         <img src={vision} />
                         <h4>Vision</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt vel non, eligendi dolore animi itaque alias assumenda error dolorem soluta.</p>
+                        <p className="paragraphStyling">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt vel non, eligendi dolore animi itaque alias assumenda error dolorem soluta.</p>
                     </div>
                     <div className="col-md-4 aboutMvv-content">
                         <img src={value} />
                         <h4>Value</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt vel non, eligendi dolore animi itaque alias assumenda error dolorem soluta.</p>
+                        <p className="paragraphStyling">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt vel non, eligendi dolore animi itaque alias assumenda error dolorem soluta.</p>
                     </div>
                 </div>
             </div>

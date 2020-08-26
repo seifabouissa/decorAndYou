@@ -19,22 +19,22 @@ const ServicesDetails = () => {
                         <div className="col-md-6 interior-vol">
                             <img src={interiorDesign} />
                             <h4>Interior Design</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis deserunt sequi numquam sint cum repellendus accusantium atque.</p>
+                            <p className="paragraphStyling">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis deserunt sequi numquam sint cum repellendus accusantium atque.</p>
                         </div>
                         <div className="col-md-6 exterior-vol">
                             <img src={exteriorDesign} />
                             <h4>Exterior Design</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis deserunt sequi numquam sint cum repellendus accusantium atque.</p>
+                            <p className="paragraphStyling">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis deserunt sequi numquam sint cum repellendus accusantium atque.</p>
                         </div>
                         <div className="col-md-6 planning-vol mt-5">
                             <img src={projectPlanning} />
                             <h4>Project Planning</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis deserunt sequi numquam sint cum repellendus accusantium atque.</p>
+                            <p className="paragraphStyling">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis deserunt sequi numquam sint cum repellendus accusantium atque.</p>
                         </div>
                         <div className="col-md-6 architecture-vol mt-5">
                             <img src={architecture} />
                             <h4>Architecture</h4>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis deserunt sequi numquam sint cum repellendus accusantium atque.</p>
+                            <p className="paragraphStyling">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis deserunt sequi numquam sint cum repellendus accusantium atque.</p>
                         </div>
                     </div>
                 </div>

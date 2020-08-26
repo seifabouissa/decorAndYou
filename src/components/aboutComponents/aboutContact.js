@@ -12,7 +12,7 @@ const AboutContact = () => {
                 <div className="container aboutContact-container">
                     <div data-aos="fade-up" className="row aboutContact-row">
                         <div className="col-md-12 aboutContact-content">
-                            <h2>We are happy to hear from you</h2>
+                            <h2>We are happy to <br/> hear from you</h2>
                             <div className="col-md-12 servicesWorkDemo-button">
                                 <a href="./contact" class="subscribe-btn">
                                     <button class="btn btn-theme" type="submit">Contact Us</button>
