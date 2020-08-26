@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 import ScrollViewPort from './components/scrollViewPort';
 import Header from './components/header';
 import Navbar from './components/navbar';
@@ -25,6 +25,7 @@ const App = () => {
 
         <Switch>
           <Route exact path="/" component={Home} />
+          <Redirect from="/#" to="home"/>
           <Route path="/about" component={About} />
           <Route path="/services" component={Services} />
           <Route path="/gallery" component={Gallery} />
